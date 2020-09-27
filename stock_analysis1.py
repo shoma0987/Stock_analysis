@@ -2,6 +2,7 @@ from pandas_datareader import data
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import sqlite3
 
 # pd.set_option("display.max_columns",10)
 # pd.set_option("display.max_rows",1000)
