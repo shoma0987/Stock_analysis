@@ -19,7 +19,7 @@ conn.close()
 print(n225_db)
 
 #長いので関数化
-def scroll_bar():
+def scroll_bar2():
     with open("stock_225.txt","r",encoding="utf-8", errors="ignore") as f:
         r = f.read()
     N225 = list(r.split())
@@ -52,3 +52,5 @@ def scroll_bar():
     myList.pack()
     scrollBar.config(command = myList.yview)
     window.mainloop() #N225をスクロールバーに表示させることまでは成功
+
+print(scroll_bar2())
